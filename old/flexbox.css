@@ -1,0 +1,52 @@
+body {
+    background-color: burlywood;
+}
+
+.container {
+    width: 500px;
+    height: 200px;
+    background-color: white;
+    padding: 10px;
+    margin: 20px;
+
+    display: -webkit-flex; /* SAFARI Y CHROME*/
+    display: -ms-flexbox; /* IE*/
+    display: flex; /* que sea una caja en linea flexible*/
+
+    
+    
+    flex-wrap: wrap;
+
+    /* flex-direction: row | column | row-reverse | column-reverse ; */
+    /* flex-wrap: no-wrap | wrap | wrap-reverse; */
+    /* justify-content: flex-end | flex-start | center | space-around | space-between ;*/
+    /* align-items: flex-start | flex-end | center | stretch: 100% del contenedor | baseline; */
+    /* align-content: flex-start | flex-end | center | stretch | space-between | space-around ;*/
+    /* justify-content: center; */
+    /* align-items: center GRUPOS DE ELEMENTOS DE UNA SOLA FILA */  
+    /* align-content: space-between; /* GRUPOS DE ELEMENTOS DE MAS FILAS - wrap */
+}
+
+.caja {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    margin: 10px;
+}
+
+.caja1 {
+    order: 1;
+}
+
+.caja2 {
+    order: 2; 
+}
+
+.caja3 {
+    order: 3;
+}
+
+.caja3 {
+    order: 4;
+}
